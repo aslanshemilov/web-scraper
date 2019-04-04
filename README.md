@@ -15,6 +15,8 @@ Useful to determine the psychological influence indexed search results may have.
 
 ## Example Run
 
+````
 example = Analysis('spacex')
 example.run()
 print(example.term, 'Subjectivity: ', example.subjectivity, 'Sentiment: ', example.sentiment)
+````
